@@ -1,0 +1,123 @@
+body{
+    background: linear-gradient(to top left, powderblue, pink);
+	background-size: 100%;
+}
+header{
+    position: absolute;
+width: 100%;
+height: 88px;
+left: 0px;
+top: 0px;
+
+background: #CBFCFF;
+}
+.catalog1 {
+   
+position: absolute;
+width: 100%;
+height: 637px;
+left: 0px;
+top: 88px;
+background-size: cover;
+}
+.catalog1 h1{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+position: relative;
+left: 152px;
+color: #000000;
+}
+.product{
+     align-items:center;
+    position: relative;
+    float: left;
+    width: 30%;
+    left: 14px;
+    margin-left: 30px;
+}
+.product img{
+    width: 188px;
+height: 140px;
+border-radius: 60px;
+}
+.product p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+width: 300px;
+color: #000000;
+}
+.catalog2{
+position: absolute;
+width: 100%;
+height: 632px;
+left: 0px;
+top: 725px;
+}
+footer{
+    
+position: absolute;
+width: 100%;
+height: 136px;
+left: 0px;
+top: 1256px;
+
+background: #00A3FF;
+}
+
+.text{
+    position: relative;
+width: 287px;
+height: 110px;
+float: left;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+.soc{
+    position: relative;
+    width: 209px;
+height: 90px;
+float: right;
+}
+.soc img{
+    position: relative;
+   width: 80px;
+height: 75px; 
+margin-left: 10px;
+top: 20px;
+}
+
+a{
+    position: relative;
+    top: 20px;
+    width: 169px;
+height: 60px;
+left: 20px;
+    background: #3300FF;
+border-radius: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+padding: 12px 22px 12px 22px ;
+color: #FFFFFF;
+text-decoration:none ;
+}
+.product a:hover, header a:hover{
+    color: yellow;
+}
+img:hover{
+      width: 208px;
+height: 160px;
+transition: 1s;
+}
